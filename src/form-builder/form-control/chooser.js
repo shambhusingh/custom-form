@@ -3,7 +3,6 @@ import {Grid} from 'semantic-ui-react'
 
 function Chooser({addNewFormField, defaults}) {
   const chooseFormField = type => addNewFormField(defaults[type])
-  console.log('chooser called here.')
   return (
     <Grid padded columns={4}>
       <Grid.Row color='teal' textAlign='center'>
@@ -23,5 +22,6 @@ function Chooser({addNewFormField, defaults}) {
     </Grid>
   )
 }
+
 
 export default memo(Chooser)
