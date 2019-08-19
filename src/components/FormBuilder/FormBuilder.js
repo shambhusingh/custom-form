@@ -1,4 +1,4 @@
-import React, {useReducer, useCallback} from 'react'
+import React, {useReducer} from 'react'
 import {Container, Grid} from 'semantic-ui-react'
 
 function formFieldsReducer(state, {type, payload}) {

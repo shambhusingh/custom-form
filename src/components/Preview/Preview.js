@@ -1,6 +1,6 @@
 import React from 'react'
 import {Grid} from 'semantic-ui-react'
-import FieldRenderer from './form-fields'
+import FieldRenderer from './FormFields'
 
 const fieldComponents = {
   textarea: FieldRenderer.TextArea,

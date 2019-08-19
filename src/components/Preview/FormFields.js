@@ -1,8 +1,8 @@
 import React from 'react'
 import Datepicker from 'react-datepicker'
 import Timepicker from 'rc-time-picker'
-import 'rc-time-picker/assets/index.css'
-import 'react-datepicker/dist/react-datepicker.css'
+// import 'rc-time-picker/assets/index.css'
+// import 'react-datepicker/dist/react-datepicker.css'
 import {
   Form,
   Input,

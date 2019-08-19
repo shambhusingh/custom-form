@@ -1,8 +1,8 @@
 import React from 'react'
 import {Grid} from 'semantic-ui-react'
-import Chooser from './choosers'
-import Options from './options'
-import Properties from './properties'
+import Chooser from './Chooser/Chooser'
+import Options from './Option/Option'
+import Properties from './Property/Property'
 import getFieldOptions from '../../internals/options'
 import getFieldProperties from '../../internals/properties'
 

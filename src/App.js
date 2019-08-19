@@ -1,7 +1,7 @@
 import React from 'react'
-import FormBuilder from './form-builder'
-import FormPreview from './form-builder/preview'
-import FormControl from './form-builder/form-control'
+import FormBuilder from './components/FormBuilder/FormBuilder'
+import FormControl from './components/FormControl'
+import FormPreview from './components/Preview/Preview'
 import defaultFormFields from './internals/defaults'
 
 export default function App() {
